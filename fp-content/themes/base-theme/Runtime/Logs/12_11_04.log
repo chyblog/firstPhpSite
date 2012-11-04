@@ -1,0 +1,22 @@
+[ 2012-11-04T22:14:46+08:00 ] 0.0.0.0 /~chenyang/firstPhpSite/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003527s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.004014s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.004198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.004380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.004498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.004804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2012-11-04T22:16:42+08:00 ] 0.0.0.0 /~chenyang/firstPhpSite/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+
