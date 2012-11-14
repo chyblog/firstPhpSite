@@ -5,3 +5,4 @@ define('APP_NAME','fp-admin');
 define('APP_PATH',ABSPATH . 'fp-admin/');
 
 require ABSPATH . 'ThinkPHP/ThinkPHP.php';
+require ABSPATH . 'config.php';

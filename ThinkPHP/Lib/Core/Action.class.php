@@ -17,7 +17,7 @@
  * @author   liu21st <liu21st@gmail.com>
  */
 abstract class Action {
-
+  
     /**
      * 视图实例对象
      * @var view
