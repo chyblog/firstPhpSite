@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTTF-8" />
     <title>后台管理</title>
-    <link rel="stylesheet" href="http://127.0.0.1/~chenyang/firstphpsite/fp-include/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="<?php echo SITE_URL;?>/fp-include/css/bootstrap.min.css"/>
     <style type="text/css">
       body {
         padding-top: 40px;
@@ -35,17 +35,21 @@
       }
 
     </style>
+    <script type="text/javascript">
+      window.onload = function() {
+        if(!{$loginFlag}) {
+          alert("用户名或密码错误！");
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">后台管理</h2>
-        <input type="text" class="input-block-level" placeholder="账号">
-        <input type="password" class="input-block-level" placeholder="密码">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me">
-          记住 </label>
+      <form class="form-signin" action="login" method="post">
+        <h2 class="form-signin-heading">后台管理{$loginFlag}</h2>
+        <input name="username" type="text" class="input-block-level" placeholder="账号">
+        <input name="password" type="password" class="input-block-level" placeholder="密码">
         <button class="btn btn-large btn-primary" type="submit">
           登陆
         </button>
