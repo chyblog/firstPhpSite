@@ -8,6 +8,8 @@ class IndexAction extends Action {
     $username = $_POST["username"];
     $password = $_POST["password"];
     if($username == 'cjc') {
+      session_start();
+      $_SESSION['userinfo']=$username;
       $this->display('main');
     } else {
       $this->loginFlag = 'false';
