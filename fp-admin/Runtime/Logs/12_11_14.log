@@ -3640,3 +3640,27 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:-0.004982s ]
 INFO: [ view_end ] --END-- [ RunTime:0.000298s ]
 
+[ 2012-11-14T23:01:25+08:00 ] 127.0.0.1 /~chenyang/firstphpsite/fp-admin/index.php/index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000378s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:-0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.000743s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: loginFlag /Users/chenyang/Sites/firstphpsite/fp-admin/Runtime/Cache/fb2d4fa5a607e13993b284b510c7a660.php 第 40 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.000954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.005026s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.005258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.005473s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.005617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.005919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
