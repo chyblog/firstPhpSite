@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh">
   <head>
     <meta charset="UTTF-8" />
@@ -37,7 +37,7 @@
     </style>
     <script type="text/javascript">
       window.onload = function() {
-        if(!{$loginFlag}) {
+        if(!<?php echo ($loginFlag); ?>) {
           alert("用户名或密码错误！");
         }
       }
