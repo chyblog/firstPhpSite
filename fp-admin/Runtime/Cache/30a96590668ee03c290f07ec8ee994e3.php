@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="zh">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
   <head>
     <meta charset="UTTF-8" />
     <title>后台管理</title>
@@ -37,7 +37,7 @@
     </style>
     <script type="text/javascript">
       window.onload = function() {
-        if(!{$loginFlag}) {
+        if(!<?php echo ($loginFlag); ?>) {
           alert("用户名或密码错误！");
         }
       }
